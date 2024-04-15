@@ -1,0 +1,26 @@
+{
+  "name": "jrk-proto",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@remix-run/router": "^1.15.3",
+    "bootstrap": "^5.2.3",
+    "bootstrap-icons": "^1.10.3",
+    "js-cookie": "^3.0.5",
+    "next": "14.1.4",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-icons": "^5.0.1",
+    "react-router-dom": "^6.22.3"
+  },
+  "devDependencies": {
+    "eslint": "^8",
+    "eslint-config-next": "14.1.4"
+  }
+}
