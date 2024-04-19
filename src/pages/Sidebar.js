@@ -21,10 +21,6 @@ function Sidebar({  setPage }) {
                 <i className='bi bi-book fs-5 me-3'></i>
                 <span >Gradebook</span>
             </a>
-            <a className='list-group-item py-2 ' onClick={() => setPage('report')}>
-                <i className='bi bi-clipboard-data fs-5 me-3'></i>
-                <span >Report</span>
-            </a>
             <a className='list-group-item py-2' onClick={() => setPage('settings')}>
                 <i className='bi bi-gear-fill fs-5 me-3'></i>
                 <span >Settings</span>

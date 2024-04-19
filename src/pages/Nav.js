@@ -1,12 +1,11 @@
 import React from 'react'
-import { useState, useEffect } from 'react'; // Import useEffect
+import { useEffect } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap-icons/font/bootstrap-icons.css'
 
 function Nav({Toggle}) {
     
     useEffect(() => {
-        // Import Bootstrap JS components only on the client-side
         import('bootstrap/js/dist/dropdown');
         import('bootstrap/js/dist/collapse');
     }, []);
@@ -21,7 +20,6 @@ function Nav({Toggle}) {
             <ul className="navbar-nav ms-auto mt-2 mt-lg-0">
                 <li className="nav-item dropdown">
                     <a className="bi bi-person fs-5 me-3 nav-link dropdown-toggle text-black" href="#" id="dropdownId" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        UserName
                     </a>
                     <div className="dropdown-menu" aria-labelledby="dropdownId">
                         <a className="dropdown-item" href="#">Profile</a>
